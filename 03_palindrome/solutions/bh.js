@@ -1,7 +1,7 @@
 var prompt = require('prompt');
 
 
-var palindrome = funciton(){
+var palindrome = function(){
   prompt.start();
   prompt.get("word", function (err, result) {
     var word = result.word;
